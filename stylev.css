@@ -1,0 +1,330 @@
+body{
+    background-image: url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    user-select: none;
+}
+.titulo{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 35px;
+}
+.img1{
+    border: 10px solid rgb(49, 35, 35);
+    display: grid;
+    transform: translate(50%, 40%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto1{
+    transform: translate(-330%, 130%);
+    color: rgb(0, 0, 0);
+}
+.boton1{
+    position: absolute;
+    top: 93%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img2{
+    border: 10px solid rgb(49, 35, 35);
+    display: grid;
+    transform: translate(-210%, 40%);
+    margin: 10px;
+    margin-left: 10px;
+}
+.texto2{
+    transform: translate(-450%, 130%);
+}
+.boton1-1{
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.icono2{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 35px;
+}
+.img3{
+    border: 10px solid rgb(49, 35, 35);
+    display: grid;
+    transform: translate(185%, -107%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto3{
+    transform: translate(220%,-10%);
+}
+.boton2{
+    position: absolute;
+    top: 92%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img4{
+    border: 10px solid rgb(49, 35, 35);
+    display: grid;
+    transform: translate(115%, -107%);
+    margin: 10px;
+    margin-left: 10px;
+}
+.texto4{
+    transform: translate(105%, -10%);
+}
+.boton2-2{
+    position: absolute;
+    top: 92%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+
+.icono3{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 35px;
+}
+.img5{
+    border: 10px solid rgb(49, 35, 35);
+    display: grid;
+    transform: translate(-62%, -110%);
+    margin: 10px;
+    margin-left: 10px;
+}
+.texto5{
+    transform: translate(-350%, -10%);
+}
+.boton3{
+    position: absolute;
+    top: 155%;
+    left: 17%;
+    transform: translate(-50%, -110%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img6{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(-105%, -110%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto6{
+    transform: translate(-450%, -10%);
+}
+.boton3-3{
+    position: absolute;
+    top: 155%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+
+.icono4{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 35px;
+}
+.img7{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(160%, -256%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto7{
+    transform: translate(197%, -147%);
+}
+.boton4{
+    position: absolute;
+    top: 155%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img8{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(115%, -256%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto8{
+    transform: translate(110%, -147%);
+}
+.boton4-4{
+    position: absolute;
+    top: 155%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+
+.icono5{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 35px;
+}
+.img9{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(62%, -250%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto9{
+    transform: translate(-25%, -140%);
+}
+.boton5{
+    position: absolute;
+    top: 217%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img10{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(24%, -250%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto10{
+    transform: translate(-110%, -140%);
+}
+.boton5-5{
+    position: absolute;
+    top: 217%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img11{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(-25%, -250%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto11{
+    transform: translate(-250%, -140%);
+}
+.boton5-5-5{
+    position: absolute;
+    top: 217%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+
+.icono6{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 35px;
+}
+.img12{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(55%, -250%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto12{
+    transform: translate(-45%, -140%);
+}
+.boton6{
+    position: absolute;
+    top: 280%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img13{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(17%, -250%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto13{
+    transform: translate(-125%, -140%);
+}
+.boton6-6{
+    position: absolute;
+    top: 280%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
+.img14{
+    border: 10px solid rgb(49, 35, 35);
+    display: flex;
+    transform: translate(-20%, -250%);
+    margin: 10px;
+    margin-right: 10px;
+}
+.texto14{
+    transform: translate(-250%, -140%);
+}
+.boton6-6-6{
+    position: absolute;
+    top: 280%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:rgb(33, 219, 142);
+    text-align: center;
+}
